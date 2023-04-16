@@ -3,35 +3,49 @@
 <head>
 <meta charset='utf-8'>
 <style>
-    table, tr, th, td {
+    body {font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+    table, tr, th, td {text-align: center;
         border: solid 1px black;
         border-collapse: collapse;
-        padding: 8px;}
+        padding: 8px; width: 1000px; margin: 200px; margin-top: 30px; margin-bottom: 30px;}
+
+       
+h2 {text-align: center; font-weight: bold;}
+#디{background-color: rgb(223, 139, 139);}
+#경영{background-color: rgb(163, 179, 211);}
+#사회{background-color: rgb(213, 162, 188);}
+#대영{background-color: rgb(131, 183, 160);}
+#인간{background-color: rgb(161, 129, 177);}
+#웹프{background-color: rgb(170, 186, 155);}
+#고전{background-color: rgb(189, 182, 132);}
+#음악{background-color: rgb(233, 164, 104);}
+#채플{background-color: rgb(217, 153, 178);}
+
     </style>
 </head>
 <body>
-<h3><p>2023년 1학기 시간표</p></h3>
+<h2><p>2023년 1학기 시간표</p></h2>
 <table>
     <tr>
         <th>시간/요일</th> <th>월</th> <th>화</th> <th>수</th> <th>목</th> <th>금</th>
     </tr>
     <tr>
-        <td>1교시 <p>(9:30~10:20)</p> </td> <td></td> <td></td> <td></td> <td></td> <td> 사회 봉사의 실천 </td>
+        <td>1교시 <p>(9:30~10:20)</p> </td> <td></td> <td></td> <td></td> <td></td> <td id="사회"> 사회 봉사의 실천 </td>
     </tr>
     <tr>
-    <td>2교시 <p>(10:30~11:20)</p> </td> <td></td> <td></td> <td></td> <td> 디지털콘텐츠비즈니스 개론 </td> <td rowspan="2">웹프로그래밍 </td>
+    <td>2교시 <p>(10:30~11:20)</p> </td> <td></td> <td></td> <td></td> <td id="디"> 디지털콘텐츠비즈니스 개론 </td> <td rowspan="2" id="웹프">웹프로그래밍 </td>
     </tr>
     <tr>
-        <td>3교시 <p>(11:30~12:20)</p></td> <td></td> <td rowspan="2">디지털콘텐츠비즈니스개론</td>  <td rowspan="2">경영정보시스템</td>  <td rowspan="2">대학영어회화2</td> 
+        <td>3교시 <p>(11:30~12:20)</p></td> <td></td> <td id="디" rowspan="2">디지털콘텐츠비즈니스개론</td>  <td rowspan="2" id="경영">경영정보시스템</td>  <td rowspan="2" id="대영">대학영어회화2</td> 
 
     <tr>
         <td>4교시 <p>(12:30~13:20)</p> </td> <td></td>    <td>  </td>
     </tr>
     <tr>
-        <td>5교시 <p>(13:30~14:20)</p> </td>  <td>경영정보시스템</td> <td></td> <td></td> <td> </td> <td rowspan="3">AI시대의 인간과 사회 </td>
+        <td>5교시 <p>(13:30~14:20)</p> </td>  <td id="경영">경영정보시스템</td> <td></td> <td></td> <td> </td> <td rowspan="3" id="인간">AI시대의 인간과 사회 </td>
     </tr>
     <tr>
-        <td>6교시 <p>(14:30~15:20)</p> </td> <td></td>   <td rowspan="2">한국고전시가의산책</td> <td>채플</td> <td></td>
+        <td>6교시 <p>(14:30~15:20)</p> </td> <td></td>   <td rowspan="2" id="고전">한국고전시가의산책</td> <td id="채플">채플</td> <td></td>
     <tr>
         <td>7교시 <p>(15:30~16:20)</p> </td> <td></td>  <td></td> <td></td> 
     </tr>
@@ -39,12 +53,12 @@
         <td>8교시 <p>(16:30~17:20)</p> </td> <td></td> <td></td> <td></td> <td></td> <td>  </td>
     </tr>
     <tr>
-        <td>9교시 <p>(17:30~18:20)</p> </td> <td></td> <td></td> <td rowspan="2">한국음악과문화</td> <td></td> <td>  </td>
+        <td>9교시 <p>(17:30~18:20)</p> </td> <td></td> <td></td> <td rowspan="2" id="음악">한국음악과문화</td> <td></td> <td>  </td>
     </tr>
     <tr>
-        <td>10교시 <p>(19:30~20:20)</p> </td> <td></td> <td></td> <td></td> <td> 웹프로그래밍 </td>
+        <td>10교시 <p>(19:30~20:20)</p> </td> <td></td> <td></td> <td></td> <td id="웹프"> 웹프로그래밍 </td>
     </tr>
-</table>
+</table><hr>
 <h3><a href="회원.html" >[회원가입]</a></h3>
 <h3><a href="rubato.html" >[루바토 펜션 안내]</a></h3>
 <h3><a href="호서.html">[행사 안내]</a></h3>
