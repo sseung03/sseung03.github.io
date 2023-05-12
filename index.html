@@ -2,13 +2,19 @@
 <html>
 <head>
 <meta charset='utf-8'>
+<script>
+    function func() {
+    e = document.getElementById("table");
+    e.style.color = "grey"; }
+    </script>
+
 <style>
      body {font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
     table, tr, th, td {text-align: center;
         border: solid 1px black;
        padding: 8px; width: 1000px; margin-bottom: 30px; border-collapse: collapse;}
     
-
+ 
 
        
 h2 {text-align: center; font-weight: bold; background-color: rgb(255, 255, 193);
@@ -27,8 +33,10 @@ h2 {text-align: center; font-weight: bold; background-color: rgb(255, 255, 193);
     </style>
 </head>
 <body>
-<h2><p>2023년 1학기 시간표</p></h2>
-<table>
+<h2><p><img onmouseout="this.style.width='30px'" onmouseover="this.style.width='100px'" src="곰.png" width="30px" height="30px">&nbsp;&nbsp;
+    2023년 1학기 시간표&nbsp;&nbsp;  <img src="곰.png" width="30px" height="30px"></p></h2>
+<table id="table"> 
+    <button type="button" onclick="func()">클릭!</button> 
     <tr>
         <th>시간/요일</th> <th>월</th> <th>화</th> <th>수</th> <th>목</th> <th>금</th>
     </tr>
