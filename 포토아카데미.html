@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset='utf-8'>
+<style>
+/*  기본틀 만들기 */
+
+* {padding: 0px; margin:0px;}
+header {/*background-color: red; */height: 100px; width: 1140px; margin: 0 auto;}
+#main_img {background-color: blue; height: 250px; width:100%;}
+#contents {background-color: green; width: 1140px; margin: 0 auto;}
+#sub_menu {background-color: pink; width: 234px; float: left;}
+#main_contents{background-color: orange;width: 880px; float: right;}
+footer {background-color: yellow; width: 100%; height:150px ;}
+.clear {clear: both;}
+/* header stylesheet */
+#logo {float: left; margin: 20px 0px 0px 20px;}
+#menus {float: right;}
+
+#main_menu li {display: inline; list-style-type: none; margin-left: 80px;}
+
+#main_menu {font-size: 20px; margin-top: 20px; font-family: "맑은고딕";}
+
+#top_menu {margin-top: 20px; text-align: right;}
+/* main_img stylesheet */
+
+/* contents stylesheet */
+
+/* footer stylesheet */
+</style>
+</head>
+
+<body>
+
+<header>
+<div id="logo">
+      <img src="img/logo.png">
+</div>
+<nav id="menus">
+      <div id="top_menu">
+            로그인 | 회원가입 | 공지사항
+      </div>
+      <ul id="main_menu">
+            <li>사진이론</li>
+            <li>사진구도</li>
+            <li>사진작가</li>
+            <li>갤러리 </li>
+            <li>커뮤니티</li>
+      </ul>
+
+</nav>
+</header>
+
+<section id='main_img'>
+메인이미지
+</section>
+
+<section id='contents'>
+     <nav id='sub_menu'>
+           서브메뉴
+     </nav>
+   
+      <div id='main_contents'>
+            메인콘텐츠
+      </div>
+</section>
+<div class="clear"></div>
+<footer>
+하단푸터
+</footer>
+</body>
+
+</html>
